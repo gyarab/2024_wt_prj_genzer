@@ -14,6 +14,6 @@ Hlavní menu obsahuje odkaz na homepage (seznam filmů) a odkaz na seznam osobno
 
 ![ofd_wireframe](./ofd_wireframe.jpg)
 
-## Wireframes
+## DB schema
 
 ![DB_schema](./DB_schema.jpg)
