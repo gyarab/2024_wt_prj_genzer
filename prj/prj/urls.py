@@ -17,10 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.views.generic import TemplateView
+from main.views import homepage_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('', TemplateView.as_view(template_name='main/homepage.html')),
-    path('homepage', TemplateView.as_view(template_name='main/homepage.html')),
-    path('search', TemplateView.as_view(template_name='main/search.html')),
+    path('', TemplateView.as_view(template_name='main/homepage.html')),
 ]
