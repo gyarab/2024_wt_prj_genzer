@@ -5,7 +5,7 @@ class Film(models.Model):
     rokPremiery = models.IntegerField(null=True, blank=True)
     obrazekUrl = models.CharField(max_length=300)
     zanr = models.CharField(max_length=300)
-    reziseri = models.ForeignKey('Osoba', null=True, on_delete=models.SET_NULL)
+    reziseri = models.ForeignKey('Osoba', null=True, on_delete=models.SET_NULL, related_name="directed_film_set")
     herci = models.ForeignKey('Osoba', null=True, on_delete=models.SET_NULL)
     recenze = models.ForeignKey('Recenze', null=True, on_delete=models.SET_NULL)
 
@@ -24,8 +24,8 @@ class Osoba(models.Model):
 class Recenze(models.Model):
     username = models.CharField(max_length=300)
     obsah = models.TextField(blank=True, default="")
-    pocetHvezd = models.IntegerField(max_length=5)
-    datumPridani = models.DateField.auto_now_add()
+    pocetHvezd = models.IntegerField()
+    datumPridani = models.DateField()
 
     def __str__(self):
         return f"{self.username} ({self.RokPremiery})"
