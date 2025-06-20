@@ -1,0 +1,12 @@
+[
+{
+    "model": "main.recenze",
+    "pk": 1,
+    "fields": {
+        "username": "hkjk",
+        "obsah": "kjhkhkjh",
+        "pocetHvezd": 5,
+        "datumPridani": "2025-06-20"
+    }
+}
+]

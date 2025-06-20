@@ -1,0 +1,216 @@
+[
+{
+    "model": "main.film",
+    "pk": 1,
+    "fields": {
+        "nazev": "Inception",
+        "rokPremiery": 2010,
+        "obrazekUrl": "https://example.com/inception.jpg",
+        "zanr": "Sci-Fi",
+        "reziseri": [],
+        "herci": [],
+        "recenze": []
+    }
+},
+{
+    "model": "main.film",
+    "pk": 2,
+    "fields": {
+        "nazev": "The Dark Knight",
+        "rokPremiery": 2008,
+        "obrazekUrl": "https://m.media-amazon.com/images/I/51EbJlwCz-L.AC.jpg",
+        "zanr": "Action",
+        "reziseri": [],
+        "herci": [],
+        "recenze": []
+    }
+},
+{
+    "model": "main.film",
+    "pk": 3,
+    "fields": {
+        "nazev": "Interstellar",
+        "rokPremiery": 2014,
+        "obrazekUrl": "https://example.com/interstellar.jpg",
+        "zanr": "Sci-Fi",
+        "reziseri": [],
+        "herci": [],
+        "recenze": []
+    }
+},
+{
+    "model": "main.film",
+    "pk": 4,
+    "fields": {
+        "nazev": "The Matrix",
+        "rokPremiery": 1999,
+        "obrazekUrl": "https://example.com/matrix.jpg",
+        "zanr": "Sci-Fi",
+        "reziseri": [],
+        "herci": [],
+        "recenze": []
+    }
+},
+{
+    "model": "main.film",
+    "pk": 5,
+    "fields": {
+        "nazev": "Pulp Fiction",
+        "rokPremiery": 1994,
+        "obrazekUrl": "https://m.media-amazon.com/images/I/71c05lTE03L.AC_SL1000.jpg",
+        "zanr": "Crime",
+        "reziseri": [],
+        "herci": [],
+        "recenze": []
+    }
+},
+{
+    "model": "main.film",
+    "pk": 6,
+    "fields": {
+        "nazev": "The Shawshank Redemption",
+        "rokPremiery": 1994,
+        "obrazekUrl": "https://example.com/shawshank.jpg",
+        "zanr": "Drama",
+        "reziseri": [],
+        "herci": [],
+        "recenze": []
+    }
+},
+{
+    "model": "main.film",
+    "pk": 7,
+    "fields": {
+        "nazev": "Fight Club",
+        "rokPremiery": 1999,
+        "obrazekUrl": "https://example.com/fight_club.jpg",
+        "zanr": "Drama",
+        "reziseri": [],
+        "herci": [],
+        "recenze": []
+    }
+},
+{
+    "model": "main.film",
+    "pk": 8,
+    "fields": {
+        "nazev": "Forrest Gump",
+        "rokPremiery": 1994,
+        "obrazekUrl": "https://example.com/forrest_gump.jpg",
+        "zanr": "Drama",
+        "reziseri": [],
+        "herci": [],
+        "recenze": []
+    }
+},
+{
+    "model": "main.film",
+    "pk": 9,
+    "fields": {
+        "nazev": "The Godfather",
+        "rokPremiery": 1972,
+        "obrazekUrl": "https://example.com/godfather.jpg",
+        "zanr": "Crime",
+        "reziseri": [],
+        "herci": [],
+        "recenze": []
+    }
+},
+{
+    "model": "main.film",
+    "pk": 10,
+    "fields": {
+        "nazev": "The Lord of the Rings: The Fellowship of the Ring",
+        "rokPremiery": 2001,
+        "obrazekUrl": "https://example.com/lotr_fellowship.jpg",
+        "zanr": "Fantasy",
+        "reziseri": [],
+        "herci": [],
+        "recenze": []
+    }
+},
+{
+    "model": "main.film",
+    "pk": 11,
+    "fields": {
+        "nazev": "shrek",
+        "rokPremiery": 2500,
+        "obrazekUrl": "data:image/webp;base64,UklGRiwLAABXRUJQVlA4ICALAAAQMwCdASq9AG4APq0oq1WmMqYmGYJQFYlkBnvcGCnclfW79z5zVycHUhCHg/kVW4trf23MvcHONhysqRbBPJ9/h96yH9eQ4aFaGrhcoRdwfxP9X6lYWlvIOH4j4rrWQbNlR8hX4SsGSEMDPMouE2JX3g5Otuq+k+1htJWbogmF33NcphHgGCGV/5hHHoIQkxQooFq/jXdwWz5nkixvqv+wgCigwL/Rvww/JIKumE5fVn8meyuxLFxVdyoPH",
+        "zanr": "IDK",
+        "reziseri": [
+            1
+        ],
+        "herci": [
+            2
+        ],
+        "recenze": [
+            1
+        ]
+    }
+},
+{
+    "model": "main.film",
+    "pk": 12,
+    "fields": {
+        "nazev": "Inception",
+        "rokPremiery": 2010,
+        "obrazekUrl": "https://m.media-amazon.com/images/I/51s+z9vFZTL.AC.jpg",
+        "zanr": "Sci-Fi",
+        "reziseri": [],
+        "herci": [],
+        "recenze": []
+    }
+},
+{
+    "model": "main.film",
+    "pk": 13,
+    "fields": {
+        "nazev": "The Dark Knight",
+        "rokPremiery": 2008,
+        "obrazekUrl": "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg",
+        "zanr": "Action",
+        "reziseri": [],
+        "herci": [],
+        "recenze": []
+    }
+},
+{
+    "model": "main.film",
+    "pk": 14,
+    "fields": {
+        "nazev": "Interstellar",
+        "rokPremiery": 2014,
+        "obrazekUrl": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+        "zanr": "Sci-Fi",
+        "reziseri": [],
+        "herci": [],
+        "recenze": []
+    }
+},
+{
+    "model": "main.film",
+    "pk": 15,
+    "fields": {
+        "nazev": "The Matrix",
+        "rokPremiery": 1999,
+        "obrazekUrl": "https://m.media-amazon.com/images/I/51EG732BV3L.AC.jpg",
+        "zanr": "Sci-Fi",
+        "reziseri": [],
+        "herci": [],
+        "recenze": []
+    }
+},
+{
+    "model": "main.film",
+    "pk": 16,
+    "fields": {
+        "nazev": "Pulp Fiction",
+        "rokPremiery": 1994,
+        "obrazekUrl": "https://upload.wikimedia.org/wikipedia/en/8/82/Pulp_Fiction_cover.jpg",
+        "zanr": "Crime",
+        "reziseri": [],
+        "herci": [],
+        "recenze": []
+    }
+}
+]

@@ -1,0 +1,20 @@
+[
+{
+    "model": "main.osoba",
+    "pk": 1,
+    "fields": {
+        "jmeno": "fdds",
+        "povolani": "Reziser",
+        "obrazekUrl": "data:image/webp;base64,UklGRiwLAABXRUJQVlA4ICALAAAQMwCdASq9AG4APq0oq1WmMqYmGYJQFYlkBnvcGCnclfW79z5zVycHUhCHg/kVW4trf23MvcHONhysqRbBPJ9/h96yH9eQ4aFaGrhcoRdwfxP9X6lYWlvIOH4j4rrWQbNlR8hX4SsGSEMDPMouE2JX3g5Otuq+k+1htJWbogmF33NcphHgGCGV/5hHHoIQkxQooFq/jXdwWz5nkixvqv+wgCigwL/Rvww/JIKumE5fVn8meyuxLFxVdyoPH"
+    }
+},
+{
+    "model": "main.osoba",
+    "pk": 2,
+    "fields": {
+        "jmeno": "hgjg",
+        "povolani": "Herec",
+        "obrazekUrl": "data:image/webp;base64,UklGRiwLAABXRUJQVlA4ICALAAAQMwCdASq9AG4APq0oq1WmMqYmGYJQFYlkBnvcGCnclfW79z5zVycHUhCHg/kVW4trf23MvcHONhysqRbBPJ9/h96yH9eQ4aFaGrhcoRdwfxP9X6lYWlvIOH4j4rrWQbNlR8hX4SsGSEMDPMouE2JX3g5Otuq+k+1htJWbogmF33NcphHgGCGV/5hHHoIQkxQooFq/jXdwWz5nkixvqv+wgCigwL/Rvww/JIKumE5fVn8meyuxLFxVdyoPH"
+    }
+}
+]
