@@ -1,10 +1,62 @@
 {% extends 'main/base.html' %}
 
+{% block title %}Filmy | {{ block.super }}{% endblock %}
+
 {% block content %}
-    <h1>
-        One
-    </h1>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolorem placeat veritatis iure est at, doloribus dolor ipsum labore temporibus maiores culpa eum necessitatibus sunt exercitationem possimus deserunt veniam facere.
-    </p>
+<h1>Filmy</h1>
+
+<div class="row">
+    <form method="get" action="./">
+        <div class="input-group mb-3">
+            <input
+                type="text"
+                name="search"
+                value="{{ request.GET.search }}"
+                class="form-control"
+                placeholder="Search movies..."
+                aria-label="Search"
+                aria-describedby="button-addon2"
+            >
+            <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Search</button>
+        </div>
+    </form>
+</div>
+
+<div class="row">
+    <ul class="list-inline">
+        <li class="list-inline-item">
+            <a class="btn {% if not genre %}btn-primary{% else %}btn-outline-secondary{% endif %}" href="./">All</a>
+        </li>
+        {% for g in genres %}
+        <li class="list-inline-item">
+            <a class="btn {% if g == genre %}btn-primary{% else %}btn-outline-secondary{% endif %}" href="./?genre={{ g }}">{{ g }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-2">
+    {% for film in films %}
+    <div class="col">
+        <div class="card h-100" style="cursor: pointer;">
+            <img class="card-img-top" src="{{ film.obrazekUrl }}" alt="{{ film.nazev }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ film.nazev }} ({{ film.rokPremiery }})</h5>
+                {% if film.reziseri.exists %}
+                <h6>Director: {{ film.reziseri.first.jmeno }}</h6>
+                {% endif %}
+                <span class="badge bg-primary">{{ film.zanr }}</span>
+                {% if film.recenze.exists %}
+                <p class="card-text">{{ film.recenze.first.obsah|truncatewords_html:10 }}</p>
+                {% endif %}
+            </div>
+            <div class="card-footer text-end">
+                <a href="#" class="btn btn-outline-primary">Details</a>
+            </div>
+        </div>
+    </div>
+    {% empty %}
+    <p>No movies found. 😢</p>
+    {% endfor %}
+</div>
 {% endblock %}
